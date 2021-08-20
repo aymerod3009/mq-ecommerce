@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import BgImg from '../assets/XR190L-1900x700-01.jpg'
+import BgImg from '../assets/XR-150L-desktop.jpeg'
 import { MdKeyboardArrowRight } from 'react-icons/md';
 
 const Section = styled.section`
