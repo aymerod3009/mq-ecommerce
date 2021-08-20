@@ -9,6 +9,9 @@ const NavbarContainer = styled.div`
     height:80px;
     z-index: 20;
     background: #fff;
+    @media screen and (max-width:650px){
+        width: 100%;
+    }
 `;
 const NavbarWrap = styled.div`
     width: 1200px;
@@ -19,7 +22,11 @@ const NavbarWrap = styled.div`
     position: relative;
     align-items: center;
     justify-content:space-between;
-`;
+    @media screen and (max-width:650px){
+        width: 100%;
+    }
+    `;
+
 
 const Logo = styled.div`
     width: 120px;
@@ -88,7 +95,7 @@ const Button = styled.div`
 const Navbar = () => {
     
     return (
-        <NavbarContainer>
+        <NavbarContainer >
             <NavbarWrap>
                 <Logo/>
                     <Nav>
